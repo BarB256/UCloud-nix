@@ -68,6 +68,31 @@ else
     echo "    Check /tmp/nix-hello-test.log for details."
 fi
 
+print_nix_logo() {
+    printf '\033[1;36m'
+    cat << "EOF"
+        ===    ****   ***        
+        ====    **** ****        
+         ====    *******         
+    ============= *****    ==    
+   =============== *****  ====   
+        *****       **** ====    
+       ****           * ====     
+**********             ==========
+     **** =           ====       
+    **** ====       =====        
+   ****  ===== ***************   
+    **    ===== *************    
+         =======    ****         
+        ==== ====    ****        
+        ===   ====    ***        
+
+EOF
+    printf '\033[0m\n'
+}
+
+print_nix_logo
+
 echo ""
 echo "Done."
 echo "  - New shells: Nix loads automatically via ~/.bashrc."
