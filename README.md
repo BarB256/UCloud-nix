@@ -12,9 +12,9 @@ The usual solution would be docker **since this is what most people are used to*
 
 ## How to use it
 ```shell
-curl -O https://raw.githubusercontent.com/BarB256/UCloud-nix/main/nixinstall.sh
-chmod +x nixinstall.sh 
-source nixinstall.sh
+curl -O https://raw.githubusercontent.com/BarB256/UCloud-nix/main/nix-install.sh
+chmod +x nix-install.sh 
+source nix-install.sh
 ```
 
 > [!TIP]
